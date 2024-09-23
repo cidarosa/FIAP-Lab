@@ -1,14 +1,14 @@
 package br.com.fiap.ms_aluno.model;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.EqualsAndHashCode;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 @AllArgsConstructor
 @NoArgsConstructor
 @EqualsAndHashCode(of = "id")
 @Entity
+@Getter
+@Setter
 @Table(name = "tb_aluno")
 public class Aluno {
 
