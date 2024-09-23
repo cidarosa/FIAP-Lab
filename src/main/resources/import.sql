@@ -1,0 +1,3 @@
+INSERT INTO tb_aluno(nome, email, password, rm, status, turma) VALUES('Cida', 'cida@gmail.com', '123456', '45454', 'MATRICULADO', '3SIPG');
+INSERT INTO tb_aluno(nome, email, password, rm, status, turma) VALUES('Jon Snow', 'snow@gmail.com', '123456', '45454', 'MATRICULADO', '3SIPG');
+INSERT INTO tb_aluno(nome, email, password, rm, status, turma) VALUES('Sansa', 'sansa@gmail.com', '123456', '45454', 'MATRICULADO', '3SIPG');
